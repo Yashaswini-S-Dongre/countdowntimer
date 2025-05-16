@@ -37,7 +37,7 @@ countdown-timer/
 ## JavaScript (script.js)
 * Handles input validation and time conversion
 * `startTimer()` – Starts countdown and updates display every second
-*` pauseTimer()` – Pauses the timer
+* `pauseTimer()` – Pauses the timer
 * `resetTimer()` – Stops and resets the timer and inputs
 * `formatTime()` – Converts seconds into HH:MM:SS format
 * Plays alarm sound when timer reaches 0
