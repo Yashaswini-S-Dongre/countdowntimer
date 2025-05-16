@@ -22,11 +22,11 @@ countdown-timer/
 └── README.md         # Project overview and instructions
 ```
 # How to Use
-1.Open the index.html file in a web browser.
-2.Enter the desired countdown duration (HH, MM, SS) in the input fields.
-3.Click the Start button to begin the countdown.
-4.Use the Pause button to stop temporarily.
-5.Use the Reset button to clear the timer and inputs
+1. Open the index.html file in a web browser.
+2. Enter the desired countdown duration (HH, MM, SS) in the input fields.
+3. Click the Start button to begin the countdown.
+4. Use the Pause button to stop temporarily.
+5. Use the Reset button to clear the timer and inputs
 # Code Explanation
 ## CSS (main.css)
 * Uses a dark gradient background with glowing text
@@ -35,12 +35,12 @@ countdown-timer/
 * Countdown text pulses for visual feedback
 
 ## JavaScript (script.js)
-*Handles input validation and time conversion
-*startTimer() – Starts countdown and updates display every second
-*pauseTimer() – Pauses the timer
-*resetTimer() – Stops and resets the timer and inputs
-*formatTime() – Converts seconds into HH:MM:SS format
-*Plays alarm sound when timer reaches 0
+* Handles input validation and time conversion
+* startTimer() – Starts countdown and updates display every second
+* pauseTimer() – Pauses the timer
+* resetTimer() – Stops and resets the timer and inputs
+* formatTime() – Converts seconds into HH:MM:SS format
+* Plays alarm sound when timer reaches 0
 
 # Setup Instructions
 1. Clone the repository:
