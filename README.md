@@ -22,7 +22,7 @@ countdown-timer/
 └── README.md         # Project overview and instructions
 ```
 # How to Use
-1. Open the index.html file in a web browser.
+1. Open the `index.html` file in a web browser.
 2. Enter the desired countdown duration (HH, MM, SS) in the input fields.
 3. Click the Start button to begin the countdown.
 4. Use the Pause button to stop temporarily.
@@ -36,18 +36,22 @@ countdown-timer/
 
 ## JavaScript (script.js)
 * Handles input validation and time conversion
-* startTimer() – Starts countdown and updates display every second
-* pauseTimer() – Pauses the timer
-* resetTimer() – Stops and resets the timer and inputs
-* formatTime() – Converts seconds into HH:MM:SS format
+* `startTimer()` – Starts countdown and updates display every second
+*` pauseTimer()` – Pauses the timer
+* `resetTimer()` – Stops and resets the timer and inputs
+* `formatTime()` – Converts seconds into HH:MM:SS format
 * Plays alarm sound when timer reaches 0
 
 # Setup Instructions
 1. Clone the repository:
-git clone https://github.com/your-username/countdown-timer.git
-2. Navigate to the project folder:
+   ```sh
+   git clone https://github.com/your-username/countdown-timer.git
+   ```
+3. Navigate to the project folder:
+   ```sh
    cd countdown-timer
-3. Open index.html in your browser
+   ```
+5. Open `index.html` in your browser
 
 # Future Enhancements
 * Save last used time in localStorage
