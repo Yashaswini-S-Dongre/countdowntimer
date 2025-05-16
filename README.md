@@ -13,12 +13,14 @@ CSS – Styling, layout, and basic animations
 JavaScript – Timer functionality and DOM manipulation
 Audio – Native audio element for alarm playback
 # File Structure
+```
 countdown-timer/
 ├── index.html        # Main HTML structure
 ├── main.css          # Styling for the UI
 ├── script.js         # JavaScript countdown logic
 ├── alarm_clock.ogg   # Alarm sound when countdown ends
 └── README.md         # Project overview and instructions
+```
 # How to Use
 Open the index.html file in a web browser.
 Enter the desired countdown duration (HH, MM, SS) in the input fields.
@@ -26,19 +28,19 @@ Click the Start button to begin the countdown.
 Use the Pause button to stop temporarily.
 Use the Reset button to clear the timer and inputs
 # Code Explanation
-CSS (main.css)
+## CSS (main.css)
 Uses a dark gradient background with glowing text
 Buttons styled with rounded corners and hover animations
 Layout centered using Flexbox for responsiveness
 Countdown text pulses for visual feedback
 
-JavaScript (script.js)
-Handles input validation and time conversion
-startTimer() – Starts countdown and updates display every second
-pauseTimer() – Pauses the timer
-resetTimer() – Stops and resets the timer and inputs
-formatTime() – Converts seconds into HH:MM:SS format
-Plays alarm sound when timer reaches 0
+## JavaScript (script.js)
+*Handles input validation and time conversion
+*startTimer() – Starts countdown and updates display every second
+*pauseTimer() – Pauses the timer
+*resetTimer() – Stops and resets the timer and inputs
+*formatTime() – Converts seconds into HH:MM:SS format
+*Plays alarm sound when timer reaches 0
 
 # Setup Instructions
 1. Clone the repository:
@@ -48,6 +50,6 @@ git clone https://github.com/your-username/countdown-timer.git
 3. Open index.html in your browser
 
 # Future Enhancements
-Save last used time in localStorage
-Add keyboard shortcut support (e.g., space to pause/resume)
-Allow users to switch between light and dark themes with smooth transitions.
+* Save last used time in localStorage
+* Add keyboard shortcut support (e.g., space to pause/resume)
+* Allow users to switch between light and dark themes with smooth transitions.
