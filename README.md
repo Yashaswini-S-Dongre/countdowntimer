@@ -1,12 +1,12 @@
 # Overview
 A responsive countdown timer web app built with HTML, CSS, and JavaScript. It allows users to input hours, minutes, and seconds, then control the countdown with Start, Pause, and Reset buttons. When the timer reaches zero, an alarm sound is triggered. The design is modern, minimal, and mobile-friendly
 # Features
-Custom time input in hours, minutes, and seconds
-Start, Pause, and Reset control buttons
-Countdown display updates in real time
-Alarm sound plays when time runs out
-Responsive and visually appealing design using CSS Flexbox and shadows
-Input fields auto-pad with 0 for consistent digital display
+* Custom time input in hours, minutes, and seconds
+* Start, Pause, and Reset control buttons
+* Countdown display updates in real time
+* Alarm sound plays when time runs out
+* Responsive and visually appealing design using CSS Flexbox and shadows
+* Input fields auto-pad with 0 for consistent digital display
 # Technologies Used
 HTML – Structure and layout
 CSS – Styling, layout, and basic animations
