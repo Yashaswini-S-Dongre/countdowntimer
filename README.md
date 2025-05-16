@@ -8,10 +8,10 @@ A responsive countdown timer web app built with HTML, CSS, and JavaScript. It al
 * Responsive and visually appealing design using CSS Flexbox and shadows
 * Input fields auto-pad with 0 for consistent digital display
 # Technologies Used
-HTML – Structure and layout
-CSS – Styling, layout, and basic animations
-JavaScript – Timer functionality and DOM manipulation
-Audio – Native audio element for alarm playback
+* HTML – Structure and layout
+* CSS – Styling, layout, and basic animations
+* JavaScript – Timer functionality and DOM manipulation
+* Audio – Native audio element for alarm playback
 # File Structure
 ```
 countdown-timer/
@@ -22,17 +22,17 @@ countdown-timer/
 └── README.md         # Project overview and instructions
 ```
 # How to Use
-Open the index.html file in a web browser.
-Enter the desired countdown duration (HH, MM, SS) in the input fields.
-Click the Start button to begin the countdown.
-Use the Pause button to stop temporarily.
-Use the Reset button to clear the timer and inputs
+1.Open the index.html file in a web browser.
+2.Enter the desired countdown duration (HH, MM, SS) in the input fields.
+3.Click the Start button to begin the countdown.
+4.Use the Pause button to stop temporarily.
+5.Use the Reset button to clear the timer and inputs
 # Code Explanation
 ## CSS (main.css)
-Uses a dark gradient background with glowing text
-Buttons styled with rounded corners and hover animations
-Layout centered using Flexbox for responsiveness
-Countdown text pulses for visual feedback
+* Uses a dark gradient background with glowing text
+* Buttons styled with rounded corners and hover animations
+* Layout centered using Flexbox for responsiveness
+* Countdown text pulses for visual feedback
 
 ## JavaScript (script.js)
 *Handles input validation and time conversion
